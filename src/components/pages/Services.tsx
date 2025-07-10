@@ -1,5 +1,5 @@
-import Image from "next/image"
-import { ANGGOTA, SERVICES } from "@/lib/data"
+// import Image from "next/image"
+import { SERVICES } from "@/lib/data"
 
 export default function Services() {
     return (

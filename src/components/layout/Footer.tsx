@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import Link from "next/link";
 import { RiInstagramFill,RiFacebookCircleFill, RiLinkedinBoxFill } from "react-icons/ri";
 import { HiPhone, HiOfficeBuilding} from "react-icons/hi";
