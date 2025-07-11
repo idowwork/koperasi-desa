@@ -4,7 +4,7 @@ export default function About() {
     return (
         <section className="flex justify-center items-center my-32 px-6" id="about">
             <div className="container mx-auto">
-                <div className="grid grid-cols-1 md:grid-cols-2 place-items-center px-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 place-items-center">
                     <div className="text-black flex flex-col max-w-4xl mb-8 md:px-24">
                         {/* <h6 className="text-brown text-sm tracking-widest md:text-md mb-4 uppercase">
                             Tentang Koperasi Desa Sijunjung
@@ -13,7 +13,7 @@ export default function About() {
                             <h1 className="text-3xl font-style leading-[1.4] md:text-4xl text-maroon font-medium mb-6">
                                 Tentang Koperasi Desa Merah Putih Sijunjung Kecamatan Sijunjung
                             </h1>
-                            <p className="leading-[1.6] text-md mb-4">
+                            <p className="leading-[1.6] text-justify text-md mb-4">
                                 Koperasi Desa Merah Putih Sijunjung merupakan koperasi modern yang berdiri untuk memberdayakan ekonomi 
                                 masyakarat desa melalui sistem yang efisien, transparan,inklusif dan kolaboratif. Kami berkomitmen menjadi 
                                 solusi keuangan dan usaha yang berbasis pada gotong royong serta didukung digitalisasi tata kelola koperasi.

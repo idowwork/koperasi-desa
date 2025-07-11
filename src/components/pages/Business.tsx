@@ -5,7 +5,7 @@ export default function Business() {
         <section className="flex justify-center items-center my-32 px-6" id="business">
             <div className="container mx-auto md:px-24">
                 {/* <div className="grid grid-cols-1 md:grid-cols-2 place-items-center px-6"> */}
-                <div className="flex flex-col    px-6">
+                <div className="flex flex-col">
                     <div className="text-black flex flex-col max-w-xl mb-8">
                         <div className="">
                             <h1 className="text-3xl font-style leading-[1.4] md:text-4xl text-maroon font-medium mb-6">
