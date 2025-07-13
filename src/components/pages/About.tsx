@@ -5,6 +5,9 @@ export default function About() {
         <section className="flex justify-center items-center my-32 px-6" id="about">
             <div className="container mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 place-items-center">
+                    <div className="md:px-12 md:mt-[-40px]">
+                        <Image src="/cooperative.png" width={800} height={800} alt="about lawfirm" />
+                    </div>
                     <div className="text-black flex flex-col max-w-4xl mb-8 md:px-24">
                         {/* <h6 className="text-brown text-sm tracking-widest md:text-md mb-4 uppercase">
                             Tentang Koperasi Desa Sijunjung
@@ -23,9 +26,6 @@ export default function About() {
                             <div className="text-xl">Nomor Induk Koperasi: 1304070170049</div>
                             <div className="">SK AHU: AHU-0013295.AH.01.29.TAHUN 2025</div>
                         </div>
-                    </div>
-                    <div className="md:px-12 md:mt-[-40px]">
-                        <Image src="/cooperative.png" width={800} height={800} alt="about lawfirm" />
                     </div>
                 </div>
             </div>

@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-// import Image from 'next/image';
+import Image from 'next/image';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -34,10 +34,11 @@ export default function Header() {
     <nav className="w-full z-50 transition-all md:px-32 ">
       <div className="lg:container mx-auto p-6 ">
         <div className="flex justify-between items-center">
-          <Link href="/">
+          <Link href="/" className='flex justify-center items-center gap-2'>
+            <Image src="/logo-koperasi.png" alt='logo koperasi' width={60} height={60} />
             <div className="flex flex-col">
                 <h1 className='text-xs'>Koperasi Desa Merah Putih</h1>
-                <h6 className='text-lg'>Nagari Sijunjung</h6>
+                <h6 className='text-xl'>Nagari Sijunjung</h6>
             </div>
           </Link>
 
