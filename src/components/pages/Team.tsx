@@ -4,7 +4,7 @@ import { ANGGOTA } from "@/lib/data"
 
 export default function Team() {
     return (
-        <section className="flex justify-center items-center px-6 my-32" id="team">
+        <section className="flex justify-center items-center px-6 my-32" id="pengurus">
             <div className="container mx-auto">
                 <div className="flex flex-col justify-center rounded-xl md:px-28 mb-8">
                     <div className="md:w-[60%] px-2 mx-auto text-center text-black flex flex-col justify-center mb-16">
@@ -27,7 +27,7 @@ export default function Team() {
                                         className="object-cover"
                                         sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                     />
-                                    <div className="absolute w-50 flex flex-col bottom-4 bg-blue-900 gap-1 rounded-r-lg p-2 md:px-4 md:py-2">
+                                    <div className="absolute w-50 flex flex-col bottom-4 bg-redcoop gap-1 rounded-r-lg p-2 md:px-4 md:py-2">
                                         <p className="text-xs md:text-sm font-medium text-white">{item.name}</p>
                                         <p className="text-[10px] md:text-xs text-white">{item.jabatan}</p>
                                     </div>

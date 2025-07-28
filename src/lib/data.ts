@@ -9,13 +9,13 @@ export const UNIT_BUSINESS = [
     { 
         id: 2,
         name: "Gerai Sembako",
-        image: "https://images.unsplash.com/photo-1569908557984-99974c0805b1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        image: "/gudang-sembako.jpg",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl aliquet sed leo sollicitudin donec magna.", 
     },
     { 
         id: 3,
-        name: "Apotek Desa",
-        image: "https://images.unsplash.com/photo-1696861308115-54a5e5a134b0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        name: "Alat & Mesin Pertanian (Alsintan)",
+        image: "/alsintan.jpg",
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nisl aliquet sed leo sollicitudin donec magna.", 
     },
 ];
@@ -25,41 +25,39 @@ export const SERVICES = [
     { 
         id: 1,
         name: "Pendaftaran Anggota Baru",
+        image:"/registration.png",
         text: "Berganbung jadi anggota koperasi kini lebih mudah", 
         list: ["Isi formulir secara online", "Unggah KTP", "Terima Nomor Anggota otomatis"],
-        cta: "/pendaftaran-anggota",
+        linkCta: "/pendaftaran-anggota",
+        cta: "Daftar Anggota",
     },
-     { 
+    { 
         id: 2,
-        name: "Dashboard Anggota Pribadi",
-        text: "Anggota dapat mengelola informasi dan layanan koperasi secara mandiri.", 
-        list: ["Melihat Status Simpan Pinjam", "Melacak histori transaksi", "mengunduh laporan keuangan"]
+        name: "Akses Dokumen & Laporan",
+        image:"/document.png",
+        text: "Laporan dan Dokumen Resmi Kini Lebih Mudah Diakses", 
+        list: ["Isi formulir secara online", "Unggah KTP", "Terima Nomor Anggota otomatis"],
+        linkCta: "/anggota/document",
+        cta: "Akses Dokumen",
     },
     { 
         id: 3,
-        name: "Akses Dokumen & Laporan",
-        text: "Laporan dan Dokumen Resmi Kini Lebih Mudah Diakses", 
-        list: ["Isi formulir secara online", "Unggah KTP", "Terima Nomor Anggota otomatis"]
+        name: "Partisipasi Online",
+        image:"/voting.png",
+        text: "Kini anggota bisa memberikan suaranya secara digital.", 
+        list: ["Pemilihan pengurus", "Persetujuan laporan tahunan", "Usulan unit usaha baru"],
+        linkCta: "/anggota/voting",
+        cta: "Ikut Pemilihan",
     },
     { 
         id: 4,
-        name: "Voting & Partisipasi RAT Online",
-        text: "Kini anggota bisa memberikan suaranya secara digital dan aman.", 
-        list: ["Pemilihan pengurus", "Persetujuan laporan tahunan", "Evaluasi dan usulan unit usaha baru"]
-    },
-    { 
-        id: 5,
-        name: "Agenda & Pengingat Kegiatan",
+        name: "Kegiatan Koperasi",
+        image:"/schedule.png",
         text: "Dapatkan notifikasi otomatis untuk kegiatan koperasi.", 
-        list: ["Jadwal RAT", "Pembagian SHU", "Bazar atau pameran produk lokal"]
+        list: ["Jadwal RAT", "Pembagian SHU", "Bazar atau pameran produk lokal"],
+        linkCta: "/kegiatan-koperasi",
+        cta: "Lihat Kegiatan",
     },
-    { 
-        id: 6,
-        name: "Belanja di Toko Koperasi Digital",
-        text: "Nikmati kemudahan transaksi langsung dari toko koperasi online.", 
-        list: ["Belanja kebutuhan pokok", "Membeli produk UMKM lokal", "Melakukan pembayaran langsung"]
-    },
-    
 ];
 
 

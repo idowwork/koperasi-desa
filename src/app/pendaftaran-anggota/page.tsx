@@ -1,9 +1,7 @@
+import Registration from "@/components/pages/Registration";
 
-
-export default function registration() {
+export default function pendaftaran() {
   return (
-    <div className="">
-        Pendaftaran Anggota
-    </div>
+    <Registration/>
   );
 }

@@ -13,7 +13,7 @@ export default function Header() {
     { name: 'Beranda', path: '/' },
     { name: 'Tentang Kami', path: '/#tentang' },
     { name: 'Struktur Pengurus', path: '/#pengurus' },
-    { name: 'Unit Bisnis', path: '/#bisnis' },
+    { name: 'Unit Bisnis', path: '/#unit-bisnis' },
     { name: 'Layanan', path: '/#layanan' },
     { name: 'Artikel', path: '/#artikel' },
   ];
@@ -31,14 +31,16 @@ export default function Header() {
   }, [router]);
 
   return (
-    <nav className="w-full z-50 transition-all md:px-32 ">
+    <nav className="w-full z-50 transition-all md:px-20 ">
       <div className="lg:container mx-auto p-6 ">
         <div className="flex justify-between items-center">
           <Link href="/" className='flex justify-center items-center gap-2'>
-            <Image src="/logo-koperasi.png" alt='logo koperasi' width={60} height={60} />
+            <Image src="/logo-koperasi.png" alt='logo koperasi' width={50} height={50} />
+            <Image src="/logo-nagari.jpeg" alt='logo nagari sijunjung' width={60} height={60} />
+            
             <div className="flex flex-col">
                 <h1 className='text-xs'>Koperasi Desa Merah Putih</h1>
-                <h6 className='text-xl'>Nagari Sijunjung</h6>
+                <h6 className='text-md md:text-xl'>Sijunjung Kec. Sijunjung</h6>
             </div>
           </Link>
 
@@ -57,8 +59,8 @@ export default function Header() {
           </div>
 
           <div className="hidden md:flex">
-            <div className="px-4 py-2 rounded-md border border-blue-900 ">
-                <p className='text-blue-900'>Download Aplikasi</p>
+            <div className="px-4 py-2 rounded-md border border-redcoop ">
+                <p className='text-redcoop'>Masuk Anggota</p>
             </div>
           </div>
 

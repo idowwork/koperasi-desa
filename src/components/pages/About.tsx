@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function About() {
     return (
-        <section className="flex justify-center items-center my-32 px-6" id="about">
+        <section className="flex justify-center items-center my-32 px-6" id="tentang">
             <div className="container mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 place-items-center">
                     <div className="md:px-12 md:mt-[-40px]">
@@ -22,7 +22,7 @@ export default function About() {
                                 solusi keuangan dan usaha yang berbasis pada gotong royong serta didukung digitalisasi tata kelola koperasi.
                             </p>
                         </div>
-                        <div className="bg-blue-900 text-white px-4 py-6 mt-8 rounded-md">
+                        <div className="bg-redcoop text-white p-6 mt-8 rounded-md">
                             <div className="text-xl">Nomor Induk Koperasi: 1304070170049</div>
                             <div className="">SK AHU: AHU-0013295.AH.01.29.TAHUN 2025</div>
                         </div>
